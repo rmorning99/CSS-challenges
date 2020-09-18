@@ -1,0 +1,194 @@
+body {
+    font-size: 1.25em;
+    background-color: #D4BEBE;
+    width: 100%;
+
+}
+
+h1 {
+    font-size: 3.58em;
+    text-align: center;
+    Color: white;
+}
+
+h2 {
+    font-size: 3em;
+    text-align: center;
+    text-decoration: underline;
+    color: White;
+
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 2em;
+    color: White;
+    background: #C6BBD6;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    padding: 0;
+    margin: 0;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 2rem;
+
+
+}
+
+ul {
+    display: flex;
+    padding: 0;
+    margin: 2rem;
+}
+
+li {
+    list-style: none;
+    padding: 0;
+
+}
+
+nav a:hover {
+    background: #D4BEBE;
+
+
+}
+
+#welcome-section {
+
+    margin: 20em;
+
+}
+
+
+#welcome-section p {
+    text-align: center;
+    color: #A09ABC;
+    font-style: italic;
+    font-size: 2em;
+}
+
+#project-section {
+
+    background-color: #C6BBD6;
+    width: 100%;
+    text-align: center;
+    padding: 7em 0;
+
+}
+
+#project-section h2 {
+    text-decoration: none;
+    padding-bottom: 3em;
+
+}
+
+#projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4em;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6em;
+    text-align: center;
+
+}
+
+#projects a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+#projects img {
+    max-width: 320px;
+}
+
+#projects span {
+
+    font-size: 1.25em;
+    background: #A09ABC;
+    max-width: 320px;
+    width: 100%;
+    padding: 1em 3.5em;
+
+}
+
+.btn {
+    display: inline-block;
+    padding: .5em .5em;
+    font-size: 1.5em;
+    color: white;
+    background: #A09ABC;
+    text-decoration: none;
+    margin-bottom: 1em;
+
+}
+
+.contact {
+    text-align: center;
+    font-size: 1.5em;
+    margin: 10em 0;
+
+}
+
+.contact h2,
+p {
+    text-decoration: none;
+    color: white;
+}
+
+.contact p {
+    font-style: italic;
+}
+
+.contact ul {
+    display: inline-flex;
+}
+
+.contact-list {
+    padding: 2em;
+}
+
+.contact-links {
+    text-decoration: none;
+    color: white;
+}
+
+.contact i {
+    padding: 0 .2em;
+}
+
+footer {
+    display: flex;
+    border-top: 5px white solid;
+    justify-content: space-evenly;
+    padding: 1em;
+}
+
+footer p {
+    padding: 0 2em;
+}
+
+@media all and (mas-width: 800px) {
+
+    #projects {
+        display: grid;
+        grid-template-rows: repeat(auto-fit, minmax(320px, 1fr));
+        grid-gap: 4em;
+        width: 100%;
+        max-width: 1280px;
+        margin: 0 auto;
+        margin-bottom: 6em;
+        text-align: center;
+
+    }
+
+}
